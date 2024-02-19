@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-dayl
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0004-tenant/tkrw-pr712-0075-0004-app/devfile-sample-dayl@sha256:802725057f91787ff36fe7c9317877840cd408a840c4b6aeb226cbeb6eba8e96
         name: my-nodejs
         ports:
         - containerPort: 3001
